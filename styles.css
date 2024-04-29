@@ -1,0 +1,116 @@
+/* styles.css */
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #fff;
+  color: #fff;
+  padding: none;
+}
+
+h1 {
+  font-size: 35px;
+  padding: 50px;
+  text-align: start;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.bar {
+  list-style-type: none; /* Remove default list styling */
+  margin: 0;
+  padding: 0;
+}
+
+.bar li {
+  display: inline; /* Display list items horizontally */
+  margin-right: 20px; /* Adjust spacing between list items */
+}
+
+.bar li:last-child {
+  margin-right: 0; /* Remove margin from the last list item */
+}
+
+.bar li a {
+  text-decoration: none; /* Remove underline from links */
+  color: #333; /* Set text color */
+  font-weight: bold; /* Make text bold */
+}
+
+/* nav ul {
+  list-style: none;
+} */
+
+.hero {
+  height: 60vh;
+  width: 100%;
+}
+
+.logo {
+  width: 50px; /* Adjust the width of the logo */
+  height: auto; /* Maintain aspect ratio */
+}
+
+section {
+  /* padding: 40px; */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.text {
+  display: flex;
+  background-color: #b8b4b4;
+  justify-content: space-around;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.mid {
+  display: flex;
+  justify-content: space-around;
+}
+
+.equal {
+  width: 70%;
+  height: 70%;
+}
+
+.text p {
+  width: 30%;
+  height: auto;
+}
+
+button {
+  color: #fff;
+  background-color: black;
+}
+
+/* .mid section p {
+  width: 70%;
+  height: 30%;
+  text-align: center;
+  overflow-wrap: inherit;
+} */
